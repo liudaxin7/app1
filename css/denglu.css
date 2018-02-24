@@ -1,0 +1,212 @@
+/*
+* @Author: ASUS
+* @Date:   2018-02-17 14:42:54
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-02-24 18:28:28
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.main .beijing{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/img4/beijing.png');
+	background-size: 7.5rem 13.34rem;
+}
+.main .top{
+	width: 7.5rem;
+	height: 13.34rem;
+	margin-top: -24.94rem;
+}
+.main .top .denglu{
+	font-size: 0.3rem;
+	line-height: 0.88rem;
+	font-weight: 400;
+	font-family: "苹方";
+	text-align: center;
+	color: #fff;
+	margin-left: 3.48rem;
+	float: left;
+	position: absolute;
+	top: 0.24rem;
+}
+.main .top .zhuce{
+	font-size: 0.24rem;
+	line-height: 0.88rem;
+	font-weight: 400;
+	font-family: "苹方";
+	color: #fff;
+	margin-left: 6.5rem;
+	float: left;
+	position: absolute;
+	top: 0.24rem;
+}
+.main .touxiang{
+	width: 100%;
+	height: 1.62rem;
+	background-image: url('../img/img4/touxiang.png');
+	background-size: 1.62rem 1.62rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 0.67rem;
+}
+.main .nicheng{
+	width: 100%;
+	height: 0.22rem;
+	margin-top: 0.11rem;
+	font-size: 0.24rem;
+	font-weight: 400;
+	font-family: "苹方";
+	color: #fff;
+	line-height: 0.22rem;
+	text-align: center;
+}
+.main .list{
+	position: relative;
+}
+.main .list .searchBox{
+	width: 5.4rem;
+	height: 0.72rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	border: 0rem solid #fff;
+	margin-top: 1.12rem;
+	margin-left: 1.05rem;
+	padding-left: 0.78rem;
+	box-sizing: border-box;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #d8dae4;
+	float: left;
+}
+.main .list .zhanghao{
+	width: 0.79rem;
+	height: 0.72rem;
+	background-image: url('../img/img4/zhanghao.png');
+	background-size: 0.28rem 0.3rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 1.12rem;
+	left: 1.05rem;
+	float: left;
+}
+.main .list2{
+	position: relative;
+}
+.main .list2 .searchBox{
+	width: 5.4rem;
+	height: 0.72rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	border: 0rem solid #fff;
+	margin-top: 0.28rem;
+	margin-left: 1.05rem;
+	padding-left: 0.78rem;
+	box-sizing: border-box;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #d8dae4;
+	float: left;
+}
+.main .list2 .mima{
+	width: 0.79rem;
+	height: 0.72rem;
+	background-image: url('../img/img4/mima.png');
+	background-size: 0.28rem 0.3rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 2.12rem;
+	left: 1.05rem;
+	float: left;
+}
+.main .list2 .yanjing{
+	width: 0.87rem;
+	height: 0.72rem;
+	background-image: url('../img/img4/yanjing.png');
+	background-size: 0.27rem 0.3rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 2.12rem;
+	left: 5.58rem;
+	float: right;
+}
+.main .list2 .wangji{
+	font-size: 0.22rem;
+	color: #fff;
+	font-family: "苹方";
+	float: right;
+	position: absolute;
+	top: 2.9rem;
+	right: 1.34rem;
+}
+.main .lijidenglu{
+	width: 5.4rem;
+	height: 0.72rem;
+	background: #805df7;
+	border-radius: 1.2rem;
+	margin-top: 3.96rem;
+	margin-left: 1.05rem;
+	font-size: 0.24rem;
+	font-weight: 600;
+	font-family: "苹方";
+	line-height: 0.72rem;
+	text-align: center;
+	color: #fff;
+}
+.main .disanfang{
+	width: 100%;
+	height: 0.22rem;
+	/* background: #ff3776; */
+	border-radius: 1.2rem;
+	margin-top: 1.23rem;
+	font-size: 0.22rem;
+	font-weight: 400;
+	font-family: "苹方";
+	line-height: 0.22rem;
+	text-align: center;
+	color: #fff;
+}
+.main .disanfang .tubiao{
+	width: 100%;
+	height: 0.6rem;
+	margin-top: 0.16rem;
+}
+.main .disanfang .tubiao .yi{
+	width: 0.75rem;
+	height: 0.6rem;
+	margin-left: 1.05rem;
+	float: left;
+}
+.main .disanfang .tubiao .yi img{
+	width: 0.75rem;
+	height: 0.6rem;
+}
+.main .disanfang .tubiao .er{
+	width: 0.75rem;
+	height: 0.6rem;
+	margin-left: 1.55rem;
+	float: left;
+}
+.main .disanfang .tubiao .er img{
+	width: 0.75rem;
+	height: 0.6rem;
+}
+.main .disanfang .tubiao .san{
+	width: 0.75rem;
+	height: 0.6rem;
+	margin-left: 1.55rem;
+	float: left;
+}
+.main .disanfang .tubiao .san img{
+	width: 0.75rem;
+	height: 0.6rem;
+}

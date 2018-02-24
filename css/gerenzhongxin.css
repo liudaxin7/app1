@@ -1,0 +1,309 @@
+/*
+* @Author: ASUS
+* @Date:   2018-02-24 15:42:27
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-02-24 18:06:22
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+body,html{
+	width: 100%;
+	/* overflow-x: hidden; */
+	font-family: "苹方"，"San Francisco Display";
+}
+.toubu{
+	width: 100%;
+	height: 13.34rem;
+	background: yellow;
+	position: relative;
+}
+.toubu .beijing img{
+	width: 100%;
+	height: 13.34rem;
+}
+.toubu .beijing .zi{
+	font-size: 0.36rem;
+	text-align: center;
+	color: #fff;
+	margin-top: -13.14rem;
+}
+.neirong .touxiang{
+	width: 1.88rem;
+	height: 1.84rem;
+	/* background: yellow; */
+	/* position: relative; */
+	position: absolute;
+	top: 0.34rem;
+	left: 0.24rem;
+}
+.neirong .touxiang img{
+	width: 1.88rem;
+	height: 1.84rem;
+}
+.neirong .nicheng{
+	width: 1.86rem;
+	height: 0.33rem;
+	/* background: blue; */
+	font-size: 0.3rem;
+	font-weight: 600;
+	font-family: "苹方";
+	line-height: 0.33rem;
+	color: #2a2e36;
+	position: relative;
+	top: 0.6rem;
+	left: 2.49rem;
+}
+.neirong .des5{
+	width: 4rem;
+	height: 0.33rem;
+	/* background: blue; */
+	font-size: 0.24rem;
+	font-weight: 300;
+	font-family: "苹方";
+	line-height: 0.33rem;
+	color: #adadaf;
+	position: relative;
+	top: 0.9rem;
+	left: 2.49rem;
+}
+.toubu .shezhi{
+	width: 1rem;
+	height: 1rem;
+	position: relative;
+	top: 0.08rem;
+	left: 6.3rem;
+}
+.toubu .shezhi img{
+	width: 1rem;
+	height: 1rem;
+}
+.neirong .bianji{
+	width: 0.8rem;
+	height: 0.8rem;
+	position: relative;
+	top: 0.08rem;
+	left: 6.3rem;
+}
+.neirong .bianji img{
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.toubu .main{
+	width: 100%;
+	height: 1.33rem;
+	/* background: yellow; */
+	position: relative;
+	top: -6.9rem;
+}
+.toubu .main .list{
+	width: 1.5rem;
+	height: 1.33rem;
+	/* background: pink; */
+	float: left;
+}
+.toubu .main .list .tubiao{
+	width: 100%;
+	height: 0.85rem;
+	/* background: blue; */
+}
+.toubu .main .list .tubiao img{
+	width: 0.88rem;
+	height: 0.88rem;
+	display: block;
+	margin-left: 0.3rem;
+}
+.toubu .main .list .daifukuan{
+	width: 100%;
+	height: 0.48rem;
+	/* background: yellow; */
+	font-size: 0.24rem;
+	font-weight: 400;
+	font-family: "苹方";
+	color: #fff;
+	text-align: center;
+	margin-top: -0.08rem;
+}
+.neirong{
+	width: 7.02rem;
+	height: 10rem;
+	background: #fff;
+	/* border-radius: 0.08rem; */
+	box-shadow: 0rem 0rem 0.1rem 0.04rem #fff; 
+	margin-left: 0.24rem;
+	margin-top: -11.94rem;
+	position: absolute;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.neirong .list{
+	width: 100%;
+	height: 0.89rem;
+	/* background: #ccc; */
+	float: left;
+}
+.neirong .list .tubiao{
+	width: 0.88rem;
+	height: 0.88rem;
+	float: left;
+	margin-top: 0.9rem;
+}
+.neirong .list .tubiao img{
+	width: 0.88rem;
+	height: 0.88rem;
+	display: block;
+}
+.neirong .list .biaoti{
+	width: 4.74rem;
+	height: 0.89rem;
+	font-size: 0.24rem;
+	font-weight: 600;
+	font-family: "苹方";
+	color: #474f57;
+	line-height: 0.89rem;
+	float: left;
+	margin-top: 0.9rem;
+}
+.neirong .list .des{
+	width: 1.02rem;
+	height: 0.89rem;
+	font-size: 0.24rem;
+	font-weight: 400;
+	font-family: "苹方";
+	color: #815ef7;
+	line-height: 0.89rem;
+	float: left;
+	margin-top: 0.9rem;
+}
+.neirong .list .zhankai{
+	width: 0.14rem;
+	height: 0.23rem;
+	float: left;
+	margin-top: 0.9rem;
+}
+.neirong .list .zhankai img{
+	width: 0.14rem;
+	height: 0.23rem;
+	float: left;
+	margin-top: 0.32rem;
+	margin-left: 0.06rem;
+}
+.neirong .list .xiantiao{
+	width: 6.65rem;
+	height: 0.02rem;
+	/* background: blue; */
+	margin-left: 0.18rem;
+	position: relative;
+	top: 0.88rem;
+}
+.neirong .list .xiantiao img{
+	width: 6.65rem;
+	height: 0.02rem;
+	position: relative;
+	top: -1.92rem;
+}
+.neirong .list3 .des{
+	width: 0.6rem;
+	height: 0.89rem;
+	font-size: 0.3rem;
+	font-weight: 600;
+	font-family: "San Francisco Display";
+	color: #815ef7;
+	line-height: 0.89rem;
+	float: left;
+	margin-left: 0.4rem;
+}
+.neirong .list4 .des{
+	width: 0.4rem;
+	height: 0.89rem;
+	font-size: 0.3rem;
+	font-weight: 600;
+	font-family: "San Francisco Display";
+	color: #815ef7;
+	line-height: 0.89rem;
+	float: left;
+	margin-left: 0.6rem;
+}
+.neirong .list5 .des{
+	width: 1.72rem;
+	height: 0.89rem;
+	font-size: 0.3rem;
+	font-weight: 600;
+	font-family: "San Francisco Display";
+	color: #815ef7;
+	line-height: 0.89rem;
+	float: left;
+	margin-left: -0.75rem;
+}
+.tab{
+	width: 7.5rem;
+	height: 0.98rem;
+	background: #f6f6f6;	
+	margin-left: -0.06rem;
+	margin-top: 12rem;
+	position: fixed;
+	bottom: 0;
+	left: 0.06rem;
+}
+.tab .list{
+	display: block;
+	width: 1.5rem;
+	height: 100%;
+	/* background: #fff; */
+	float: left;
+	box-sizing: border-box;
+}
+/* .tab .list:nth-child(1){
+	background: blue;
+}*/
+.tab .list .icon{
+	width: 1.45rem;
+	height: 1.45rem;
+	margin-top: -0.4rem;
+}
+.tab .list .icon1{
+	background-image: url('../img/img2/shouyewei.png');
+	background-size: 1rem 1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .icon2{
+	background-image: url('../img/img1/fenlei2x.png');
+	background-size: 1rem 1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .icon3{
+	background-image: url('../img/img1/sirendingzhi2x.png');
+	background-size: 1rem 1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .icon4{
+	background-image: url('../img/img1/gouwuche2x.png');
+	background-size: 1rem 1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .icon5{
+	background-image: url('../img/img6/wode.png');
+	background-size: 1rem 1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tab .list .wenzi{
+	width: 1.45rem;
+	height: 1.45rem;
+	/* margin-top: -0.4rem; */
+	font-size: 0.2rem;
+	color: #8f5cf9;
+	text-align: center;
+	/* line-height: 0.98rem; */
+	margin-top: -0.4rem;
+}

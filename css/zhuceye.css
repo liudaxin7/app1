@@ -1,0 +1,143 @@
+/*
+* @Author: ASUS
+* @Date:   2018-02-23 18:11:46
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-02-24 15:58:02
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.main .beijing{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/img5/beijing.png');
+	background-size: 7.5rem 13.34rem;
+}
+.main .top{
+	width: 100%;
+	height: 0.88rem;
+	/* background: yellow; */
+	margin-top: -12.94rem;
+}
+.main .top .denglu{
+	font-size: 0.3rem;
+	line-height: 0.88rem;
+	font-weight: 400;
+	font-family: "苹方";
+	text-align: center;
+	color: #fff;
+	margin-left: 3.48rem;
+	float: left;
+}
+.main .top .zhuce{
+	font-size: 0.24rem;
+	line-height: 0.88rem;
+	font-weight: 400;
+	font-family: "苹方";
+	margin-right: 0.24rem;
+	color: #fff;
+	float: right;
+}
+.main .touxiang{
+	width: 100%;
+	height: 1.62rem;
+	background-image: url('../img/img5/touxiang.png');
+	background-size: 1.62rem 1.62rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 0.67rem;
+}
+.main .list{
+	position: relative;
+}
+.main .list .searchBox{
+	width: 5.4rem;
+	height: 0.72rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	border: 0rem solid #fff;
+	margin-top: 0.97rem;
+	margin-left: 1.05rem;
+	padding-left: 0.78rem;
+	box-sizing: border-box;
+	/* 当加了padding值后，盒子大小不变 */
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #d8dae4;
+	float: left;
+}
+.main .list .zhanghao{
+	width: 0.79rem;
+	height: 0.72rem;
+	background-image: url('../img/img5/zhanghao.png');
+	background-size: 0.28rem 0.3rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 0.97rem;
+	left: 1.05rem;
+	float: left;
+}
+.main .list2{
+	position: relative;
+}
+.main .list2 .searchBox{
+	width: 5.4rem;
+	height: 0.72rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	border: 0rem solid #fff;
+	margin-top: 0.28rem;
+	margin-left: 1.05rem;
+	padding-left: 0.78rem;
+	box-sizing: border-box;
+	/* 当加了padding值后，盒子大小不变 */
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #d8dae4;
+	float: left;
+}
+.main .list2 .mima{
+	width: 0.79rem;
+	height: 0.72rem;
+	background-image: url('../img/img5/mima.png');
+	background-size: 0.28rem 0.3rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 1.97rem;
+	left: 1.05rem;
+	float: left;
+}
+.main .list3 .mima{
+	width: 0.79rem;
+	height: 0.72rem;
+	background-image: url('../img/img5/mima.png');
+	background-size: 0.28rem 0.3rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 2.97rem;
+	left: 1.05rem;
+	float: left;
+}
+.main .lijidenglu{
+	width: 5.4rem;
+	height: 0.72rem;
+	background: #805df7;
+	border-radius: 1.2rem;
+	margin-top: 4.81rem;
+	margin-left: 1.05rem;
+	font-size: 0.24rem;
+	font-weight: 600;
+	font-family: "苹方";
+	line-height: 0.72rem;
+	text-align: center;
+	color: #fff;
+}
